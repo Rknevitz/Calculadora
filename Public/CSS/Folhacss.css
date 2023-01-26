@@ -1,0 +1,66 @@
+.container{
+    background: rgb(9, 89, 99);
+    margin-top: 7px;
+    border-radius: 10px;
+}
+
+.tela{
+    background-color: rgb(5, 32, 34);
+    margin-top: 20px;
+    width: 95%;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+.btn{
+    border: none;
+    margin-top: 20px;
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(5, 32, 34);
+    box-sizing: border-box;
+    color:rgb(255,255,255);
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.text{
+    font-size: 20px;
+    position: absolute;
+    margin-top: -55px;
+    top: 20px;
+    color:rgb(255, 255, 255);
+   
+}
+.num{
+    margin-top: 0px;
+    font-size: 30px;
+    position:absolute;
+    top: 10px;
+    color:rgb(255, 255, 255);
+    transition: all .5s;
+}
+.btn:hover .num{
+    top:75px;
+    transition: all .5s;
+}
+.btn:hover .text{
+    transition: all .5s;
+    top:75px;
+}
+button:hover { 
+background-color: rgb(0, 114, 163); 
+box-shadow: 10px 5px 5px rgb(117, 178, 228);
+}
+p,span{
+    font-family: Georgia;
+}

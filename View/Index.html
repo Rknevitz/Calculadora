@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="../Image/Figure1.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../Public/CSS/Folhacss.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <div class="container">
+    <div class="row">
+      <center>
+        <div class="tela">
+          <h7 id="minitela">
+
+          </h7>
+          <h1 id="tela">
+      </center>
+      </h1>
+    </div>
+    <center>
+      <div class="row">
+        <div class="col">
+          <button class="btn" onclick="inserir('3.14'); audio.play()">
+            <p class="num">π</p>
+            <span class="text">PI</span>
+          </button>
+        </div>
+        <div class="col" >
+          <button class="btn" onclick="excluir(); audio.play()">
+            <p class="num">C</p>
+            <span class="text">Apagar</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn" onclick="deletar(); audio.play()">
+            <p class="num">Del</p>
+            <span class="text">Deletar</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn" onclick="inserir('/'); audio.play()">
+            <p class="num">/</p>
+            <span class="text">Divisão</span>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button class="btn" onclick="inserir('7'); audio.play()">
+            <p class="num">7</p>
+            <span class="text">Sete</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn" onclick="inserir('8'); audio.play()">
+            <p class="num">8</p>
+            <span class="text">Oito</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn" onclick="inserir('9'); audio.play()">
+            <p class="num">9</p>
+            <span class="text">Nove</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn" onclick="inserir('*'); audio.play()">
+            <p class="num">*</p>
+            <span class="text">Mutiplicação</span>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button class="btn" onclick="inserir('4'); audio.play()">
+            <p class="num">4</p>
+            <span class="text">Quatro</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn" onclick="inserir('5'); audio.play()">
+            <p class="num">5</p>
+            <span class="text">Cinco</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn" onclick="inserir('6'); audio.play()">
+            <p class="num">6</p>
+            <span class="text">Seis</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn"  onclick="inserir('-'); audio.play()">
+            <p class="num">-</p>
+            <span class="text">Subtração</span>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button class="btn" onclick="inserir('1'); audio.play()">
+            <p class="num">1</p>
+            <span class="text">Um</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn"  onclick="inserir('2'); audio.play()">
+            <p class="num">2</p>
+            <span class="text">Dois</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn"  onclick="inserir('3'); audio.play()">
+            <p class="num">3</p>
+            <span class="text">Três</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn"  onclick="inserir('+'); audio.play()">
+            <p class="num">+</p>
+            <span class="text">Adição</span>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button class="btn"  onclick="inserir('0'); audio.play()">
+            <p class="num">0</p>
+            <span class="text">Zero</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn" onclick="inserir('.'); audio.play()">
+            <p class="num">.</p>
+            <span class="text">Ponto</span>
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn"  onclick="igual('='); audio.play()" >
+            <p class="num">=</p>
+            <span class="text">Igual</span>
+          </button>
+        </div>
+      </div>
+    </center>
+  </div>
+  <script src="../Public/JS/PaginaJS.js">
+    
+
+  </script>
+ 
+</body>
+</html>
